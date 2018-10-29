@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Project Routes
+
+Route::get('/admin/projects', function () {
+    return view('project.projectList');
+});
