@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('project.layout')
 
 @section('content-body')
     Project List
